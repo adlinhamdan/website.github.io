@@ -1,0 +1,72 @@
+section {
+	font-size: 20px
+}
+
+nav {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center the items horizontally */
+  background-color: #6B5B51;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Use flexbox for horizontal layout */
+}
+
+nav ul li {
+  margin-right: 20px; /* Add spacing between menu items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from last menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(223,207,213);
+  font-size: 20px
+}
+
+nav ul li a:hover {
+  background-color: rgb(253,238,237);
+  color: #6B5B51 ;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+footer {
+    background-color: #6B5B51; /* Dark background color */
+    color: rgb(223,207,213); /* Light text color */
+    text-align: center; /* Center-align the content */
+    padding: 10px 0; /* Add padding to the top and bottom of the footer */
+}
+
+body{
+	background-color: 	#dfcfd5;
+	color: #6B5B51;
+	font-family: Georgia, serif;
+}
+
+body a {
+    color: #6B5B51; /* Change link color to match the footer text */
+    text-decoration: underline;
+}
+
+body a:hover {
+    text-decoration: underline; /* Underline links on hover */
+
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+

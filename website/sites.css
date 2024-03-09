@@ -1,0 +1,72 @@
+
+/* External CSS file styles.css */
+.index-nav {
+  position: fixed;
+  top: 0; /* Position the navigation menu at the top of the viewport */
+  left: 0; /* Position the navigation menu at the left side of the viewport */
+  width: 200px;
+  background-color:#6B5B51 ; 
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+  color:rgb(253,238,237);
+}
+
+.index-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.index-nav ul.index a{
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.index-nav ul li {
+  margin-bottom: 10px;
+  color: rgb(223,207,213);
+}
+
+.index-nav ul li a {
+  text-decoration: none;
+  color: rgb(223,207,213);
+  display: block;
+  font-size: 18px
+}
+
+.index-nav ul li a:hover {
+  background-color: rgb(253,238,237);
+  color: #6B5B51 ;
+}
+
+section {
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Horizontally center items */
+  align-items: center; 
+  text-align: center;
+}
+
+section img {
+  display: inline-block; /* Ensure the image is treated as a block-level element */
+
+}
+
+.madison {
+  background-color:#DDCFBF; /* Hexadecimal color code */
+}
+
+.seattle{
+  background-color:#ffd6df;
+}
+
+.portland {
+  background-color:#dba797;
+}
+
+body{
+  color: black;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
